@@ -1,0 +1,92 @@
+/* 自定义全局公共样式变量
+-------------------------- */
+$o2--color-home-background: #17171a;
+$o2PrimaryColor: #474bff;
+
+$o2-font-size-mini: 12px;
+$o2-font-size-small: 16px;
+$o2-font-size-medium: 20px;
+
+$o2-border-radius-mini: 15px;
+$o2-border-radius-small: 20px;
+$o2-border-radius-medium: 22px;
+
+/* element 全局公共样式变量
+-------------------------- */
+$--color-white: white;
+$--color-primary: #474bff;
+$--color-danger: #ff2f2f;
+$--color-success: #00bb81;
+$--color-warning: #faad14;
+
+$--font-size-base: $o2-font-size-mini;
+
+/* button
+-------------------------- */
+$--button-font-size: $--font-size-base !default;
+$--button-border-radius: $o2-border-radius-mini !default;
+$--button-padding-vertical: 12px !default;
+$--button-padding-horizontal: 20px !default;
+
+$--button-medium-font-size: $o2-font-size-medium !default;
+$--button-medium-border-radius: $o2-border-radius-medium !default;
+$--button-medium-padding-vertical: 13px !default;
+$--button-medium-padding-horizontal: 30px !default;
+
+$--button-small-font-size: $o2-font-size-small !default;
+$--button-small-border-radius: $o2-border-radius-small !default;
+$--button-small-padding-vertical: 12px !default;
+$--button-small-padding-horizontal: 24px !default;
+
+$--button-mini-font-size: 12px !default;
+$--button-mini-border-radius: $o2-border-radius-mini !default;
+$--button-mini-padding-vertical: 9px !default;
+$--button-mini-padding-horizontal: 20px !default;
+
+// 朴素按钮
+$--button-default-font-color: $--color-primary !default;
+$--button-default-background-color: $--color-white !default;
+$--button-default-border-color: $--color-primary !default;
+
+// disable按钮
+$--button-disabled-font-color: #b2bdd4 !default;
+$--button-disabled-background-color: #eef0f3 !default;
+$--button-disabled-border-color: transparent !default;
+
+$--button-primary-border-color: $--color-primary !default;
+$--button-primary-font-color: $--color-white !default;
+$--button-primary-background-color: $--color-primary !default;
+
+$--button-hover-tint-percent: 20% !default;
+$--button-active-shade-percent: 10% !default;
+
+/* input
+-------------------------- */
+$--input-height: 30px !default;
+$--input-border-radius: $o2-border-radius-mini;
+$--input-border-color: #dae4f2 !default;
+$--input-fill-disabled: #d0d9eb !default;
+$--input-color-disabled: #b6c0cf !default;
+$--input-placeholder-color: #dae4f2 !default;
+
+$--input-disabled-fill: #f2f2f8 !default;
+$--input-disabled-border: #d0d9eb !default;
+$--input-disabled-color: #b6c0cf !default;
+$--input-disabled-placeholder-color: #dae4f2 !default;
+
+/* select
+-------------------------- */
+$--select-option-hover-background: #f5f5ff;
+$--select-dropdown-border: solid 1px transparent !default;
+$--select-dropdown-shadow: 0 9px 28px 8px rgba(0, 0, 0, 0.05),
+  0 8px 15px 0 rgba(149, 156, 182, 0.05) !default;
+$--select-option-hover-background: #f5f5ff !default;
+
+/* 自定义全局公共样式
+-------------------------- */
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
